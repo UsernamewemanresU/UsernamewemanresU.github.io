@@ -1,0 +1,38 @@
+{
+  "name": "freebe",
+  "version": "0.0.1",
+  "description": "init",
+  "main": "src/js/entries/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-server": "set NODE_ENV=development&&webpack serve",
+    "dev": "set NODE_ENV=development&&webpack",
+    "build": "set NODE_ENV=production&&webpack",
+    "clear": "rd /s /q dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UsernamewemanresU/UsernamewemanresU.github.io.git"
+  },
+  "keywords": [
+    "Freebe",
+    "finance",
+    "crypto",
+    "AI"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UsernamewemanresU/UsernamewemanresU.github.io/issues"
+  },
+  "homepage": "https://github.com/UsernamewemanresU/UsernamewemanresU.github.io#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1",
+    "yarn": "^1.22.19"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0"
+  }
+}
